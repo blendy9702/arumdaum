@@ -124,7 +124,7 @@ export default function AreumdaumExhibition() {
 
           {/* Mobile Navigation */}
           <nav
-            className={`md:hidden absolute top-full left-0 right-0 bg-white border-b shadow-lg z-40 transition-all duration-300 ease-in-out ${
+            className={`md:hidden absolute left-0 right-0 bg-white border-b shadow-lg z-40 transition-all duration-300 ease-in-out ${
               isMenuOpen
                 ? "opacity-100 transform translate-y-0"
                 : "opacity-0 transform -translate-y-full pointer-events-none"
