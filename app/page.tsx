@@ -466,9 +466,15 @@ export default function AreumdaumExhibition() {
               <div className='mt-8'>
                 <h4 className='text-lg font-semibold mb-4'>소셜 미디어</h4>
                 <div className='flex gap-4'>
-                  <Button variant='outline' size='icon'>
-                    <Instagram className='h-4 w-4' />
-                  </Button>
+                  <Link
+                    href='https://www.instagram.com/aleum_art/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <Button variant='outline' size='icon'>
+                      <Instagram className='h-4 w-4' />
+                    </Button>
+                  </Link>
                   {/* <Button variant='outline' size='icon'>
                     <Facebook className='h-4 w-4' />
                   </Button>
