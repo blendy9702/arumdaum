@@ -82,7 +82,7 @@ export const news = [
     date: "2025.07.12",
     category: "공지사항",
     excerpt:
-      "문화 예술 팝업 컨텐츠 'DAILY PAINTING'에서 열리는 동성로 팝업스토어에 여러분들을 초대합니다.",
+      "문화 예술 팝업 컨텐츠 “DAILY PAINTING”에서 열리는 동성로 팝업스토어에 여러분들을 초대합니다.",
   },
   {
     title: "갤러리 투어 프로그램 런칭",
